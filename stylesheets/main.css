@@ -216,8 +216,10 @@
   .poolcontainer .bxslider {
     margin: 0% 25% 0% 10%;
     padding: 0% 10% 0% 5%; }
+    .poolcontainer .bxslider li {
+      margin: 0px 10px; }
     .poolcontainer .bxslider img {
-      height: 300px; }
+      max-height: 300px; }
   .poolcontainer .bx-pager {
     margin-right: 50px;
     height: 100px; }
@@ -302,6 +304,26 @@
     .poolcontainer .sharecontainer img:hover {
       transform: scale(1.2); }
 
+@media (min-width: 481px) and (max-width: 780px) {
+  .poolcontainer .poolfacts {
+    width: 90%;
+    float: none;
+    margin: 10% 5%; }
+
+  .poolcontainer .poolimgsolo {
+    margin: 0% 2.5% 0% 5%;
+    width: 100%;
+    float: none; } }
+@media (min-width: 380px) and (max-width: 480px) {
+  .poolcontainer .poolfacts {
+    width: 90%;
+    float: none;
+    margin: 15% 5%; }
+
+  .poolcontainer .poolimgsolo {
+    margin: 0%;
+    width: 90%;
+    float: none; } }
 .trainingpage {
   background-image: url("../images/bblbglt.png");
   background-size: contain; }
