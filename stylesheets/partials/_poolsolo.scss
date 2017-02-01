@@ -1,0 +1,143 @@
+.poolsolo {
+  background-image: url("../images/bblbglt.png");
+  background-size: contain;
+  text-align: center;
+}
+
+.maxwidthcontainer {
+  max-width: 90%;
+  margin: 0 auto;}
+
+.hero {
+  padding: 100px 50px 50px;
+  h1 {text-align: center;
+  margin: 0 auto;
+width: 100%;}
+}
+
+.poolcontainer {
+  background: white;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  clear: both;
+  padding: 5% 0%;
+  border-bottom: 1px solid grey;
+
+  .bxslider {
+    margin: 0% 25% 0% 10%;
+    padding: 0% 10% 0% 5%;
+    img{
+    height: 300px;
+  }
+  }
+  .bx-pager {
+    margin-right: 50px;
+    height: 100px;
+  }
+  .poolimgsolo {
+    float: left;
+    width: 45%;
+    margin: 0% 2.5%;
+}
+  .ac-container{
+  	max-width: 200px;
+  	text-align: left;
+  }
+  .ac-container label{
+    font-family: $headerfont;
+  	padding: 10px 0px;
+  	position: relative;
+  	z-index: 20;
+  	display: block;
+    color: $selected;
+  	cursor: pointer;
+  	font-size: 19px;
+    font-weight: 400;
+    letter-spacing: .5px;
+  }
+  .ac-container label:hover{
+  	background: #fff;
+  }
+  .ac-container label:hover:after,
+  .ac-container input:checked + label:hover:after{
+  	content: '';
+  	position: absolute;
+  }
+  .ac-container input{
+  	display: none;
+  }
+  .ac-container article{
+  	overflow: hidden;
+  	height: 0px;
+  	position: relative;
+  	z-index: 10;
+  	transition:
+  		height 0.3s ease-in-out,
+  		box-shadow 0.6s linear;
+  }
+
+  .ac-container article p{
+  	color: #777;
+  	line-height: 1.2;
+    padding: 0px 0px 5px 5px;
+  	font-size: 14px;
+    text-align: left;
+  }
+  .ac-container input:checked ~ article.ac-small{
+  	height: 250px;
+    margin-bottom: 25px;
+  }
+  .poolfacts {
+    width:50%;
+    float: left;
+
+  a{
+    font-family: $displayfont;
+    color: $primary-color;
+    padding-bottom: 10px;
+  }
+  a:hover {
+    color: $selected;
+  }
+
+  .poolfacts::after {
+    clear:both;
+  }
+
+  .pooltext {
+      text-align: left;
+    padding: 0 2.5%;}
+
+    p {padding: 0px;}
+    h2 {
+      padding: 0px 0px 10px;
+}
+}
+
+  .sharecontainer{
+    padding: 4% 2%;
+
+    a.return {text-align: left; float: left;}
+
+    h2 {text-align: left;}
+
+    ul {
+      text-align: left;
+      -webkit-padding-start: 0px;
+      list-style: none;
+      margin-top: 10px;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px;
+    }
+      img {
+      height: 50px;
+      padding: 10px;
+      transition: transform .1s ease-in;
+    }
+    img:hover {
+      transform: scale(1.2);
+    }
+  }
+}
