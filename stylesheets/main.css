@@ -77,7 +77,7 @@
 .map {
   width: 50%;
   float: left;
-  padding-left: 10%; }
+  padding: 0% 10% 15%; }
   .map iframe {
     width: 90%;
     height: 300px; }
@@ -168,8 +168,9 @@
   #region .imgDescription {
     padding: 25%; } }
 @media (min-width: 320px) and (max-width: 480px) {
-  .mapandkey h2, h3, p {
-    font-size: .8em; }
+  #mapandkey h2, h3, p {
+    font-size: 1em;
+    padding-top: 25px; }
 
   .headerimg {
     height: 80px;
@@ -177,8 +178,7 @@
 
   .map {
     width: 90%;
-    float: none;
-    padding: 5%; }
+    float: none; }
     .map iframe {
       width: 90%;
       height: 250px; }
