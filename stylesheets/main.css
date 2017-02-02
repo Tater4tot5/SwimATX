@@ -55,9 +55,7 @@
     text-align: center; }
 
 .maxwidth {
-  width: 90%;
-  margin: 0 auto;
-  padding: 0px 25px 25px; }
+  width: 90%; }
 
 #mapandkey {
   background: white;
@@ -76,8 +74,7 @@
 
 .map {
   width: 50%;
-  float: left;
-  padding: 0% 10% 15%; }
+  float: left; }
   .map iframe {
     width: 90%;
     height: 300px; }
@@ -101,9 +98,10 @@
   color: #0288d1; }
 
 #region {
-  margin: 25px 0px;
+  text-align: center;
+  margin: 50px 0px;
   background: white;
-  padding: 50px 25px 50px;
+  padding: 25px 25px 75px;
   box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   clear: both;
   display: flex;
@@ -126,7 +124,7 @@
     clear: both;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
   #region .imgDescription {
-    margin: 0% 1%;
+    margin: 0%;
     font-family: 'Oswald';
     font-weight: 300;
     padding: 15%;
@@ -153,6 +151,9 @@
     transform: scale(1.1); }
 
 @media (min-width: 481px) and (max-width: 780px) {
+  #mapandkey {
+    padding: 125px 50px 50px; }
+
   .map {
     width: 90%;
     float: none;
@@ -168,7 +169,7 @@
   #region .imgDescription {
     padding: 25%; } }
 @media (min-width: 320px) and (max-width: 480px) {
-  #mapandkey h2, h3, p {
+  #mapandkey h2, h3 {
     font-size: 1em;
     padding-top: 25px; }
 
@@ -200,7 +201,7 @@
   margin: 0 auto; }
 
 .hero {
-  padding: 100px 50px 50px; }
+  padding: 75px 50px 50px; }
   .hero h1 {
     text-align: center;
     margin: 0 auto;
@@ -229,7 +230,8 @@
     margin: 0% 2.5%; }
   .poolcontainer .ac-container {
     max-width: 200px;
-    text-align: left; }
+    text-align: left;
+    padding-bottom: 25px; }
   .poolcontainer .ac-container label {
     font-family: "Oswald", sans-serif;
     padding: 10px 0px;
@@ -265,23 +267,26 @@
     height: 250px;
     margin-bottom: 25px; }
   .poolcontainer .poolfacts {
-    width: 50%;
-    float: left; }
+    width: 45%;
+    float: left;
+    padding-right: 2.5%; }
     .poolcontainer .poolfacts a {
       font-family: "Merriweather", serif;
       color: #4da6fa;
-      padding-bottom: 10px; }
+      padding: 0px 0px; }
     .poolcontainer .poolfacts a:hover {
       color: #3f7eb2; }
     .poolcontainer .poolfacts .poolfacts::after {
       clear: both; }
+    .poolcontainer .poolfacts .pooltext h2 {
+      margin-top: 0px; }
     .poolcontainer .poolfacts .pooltext {
       text-align: left;
       padding: 0 2.5%; }
     .poolcontainer .poolfacts p {
       padding: 0px; }
     .poolcontainer .poolfacts h2 {
-      padding: 0px 0px 10px; }
+      padding: 0px 0px 0px; }
   .poolcontainer .sharecontainer {
     padding: 4% 2%; }
     .poolcontainer .sharecontainer a.return {
@@ -316,26 +321,21 @@
     float: none; } }
 @media (min-width: 380px) and (max-width: 480px) {
   .poolcontainer .poolfacts {
-    width: 90%;
+    width: 100%;
     float: none;
     margin: 15% 5%; }
 
   .poolcontainer .poolimgsolo {
     margin: 0%;
-    width: 90%;
+    width: 100%;
     float: none; } }
 .trainingpage {
   background-image: url("../images/bblbglt.png");
   background-size: contain; }
-  .trainingpage h1, .trainingpage h2 {
-    text-align: center;
-    padding-bottom: 10px; }
-  .trainingpage p {
-    line-height: 1.8; }
 
 #lap101 {
   background: white;
-  padding: 0px 50px 25px;
+  padding: 0px 50px 40px;
   box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   text-align: center; }
   #lap101 a {
@@ -346,10 +346,11 @@
     padding-top: 125px;
     height: 100px; }
   #lap101 ul {
+    -webkit-padding-start: 15px;
+    padding-top: 25px;
     list-style: none; }
   #lap101 h3 {
     text-align: left;
-    line-height: 1px;
     color: #3f7eb2; }
   #lap101 li {
     text-align: left;
@@ -357,10 +358,13 @@
 
 #workouts {
   background: white;
-  padding: 25px 50px 25px;
+  padding: 25px 50px 75px;
   margin-top: 50px;
   box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   text-align: center; }
+  #workouts img {
+    height: 100px;
+    padding-top: 25px; }
   #workouts .cross {
     height: 25px;
     padding: 10px; }
@@ -376,26 +380,27 @@
 
 #technique {
   background: white;
-  padding: 25px 25px 25px;
+  padding: 25px 25px 75px;
   margin-top: 50px;
   box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   text-align: center; }
-  #technique img {
-    height: 80px; }
+  #technique .whistleimg {
+    padding-top: 25px;
+    height: 100px; }
   #technique .techniquecontainer {
     overflow: hidden;
     clear: both;
     margin-top: 50px; }
     #technique .techniquecontainer #videos {
       float: left;
-      padding: 10px 0px 50px;
+      padding: 10px 0px 0px;
       width: 50%; }
       #technique .techniquecontainer #videos h2 {
         padding-bottom: 25px; }
     #technique .techniquecontainer #books {
       float: right;
-      width: 40%;
-      margin: 0% 2% 0% 0%; }
+      width: 50%;
+      margin: 0%; }
       #technique .techniquecontainer #books h2 {
         padding: 10px 0px 25px; }
       #technique .techniquecontainer #books h3 {
@@ -404,13 +409,17 @@
       #technique .techniquecontainer #books .bookimg {
         float: left;
         clear: both;
-        padding: 0px 10px 10px; }
+        padding: 0px; }
+        #technique .techniquecontainer #books .bookimg img {
+          height: 100px;
+          padding-right: 10px; }
       #technique .techniquecontainer #books .bookinfo h3 {
         text-align: left; }
       #technique .techniquecontainer #books .bookinfo p {
         text-align: left;
-        padding-bottom: 28px; }
+        padding-bottom: 50px; }
   #technique #other {
+    padding: 25px 25px 0px;
     clear: both;
     margin: 0 none; }
     #technique #other h2, #technique #other h3, #technique #other p {
@@ -419,13 +428,11 @@
       -webkit-padding-start: 0px;
       list-style: none; }
       #technique #other ul h3 {
-        color: #3f7eb2;
-        margin: 0px;
-        padding: 0px; }
+        color: #3f7eb2; }
       #technique #other ul a:hover {
         color: #4da6fa; }
 
-@media (min-width: 481px) and (max-width: 780px) {
+@media (min-width: 481px) and (max-width: 850px) {
   #workouts .workoutcontainer {
     text-align: center;
     display: block; }
@@ -443,6 +450,12 @@
 @media (min-width: 380px) and (max-width: 480px) {
   #lap101 {
     padding-top: 50px; }
+
+  #lap101 ul {
+    padding: 0px; }
+
+  #lap101 li {
+    padding-bottom: 0px; }
 
   #technique .techniquecontainer #videos {
     float: none;
@@ -463,7 +476,7 @@ h1, h2, h3 {
   color: #333333;
   font-weight: 400;
   letter-spacing: 1px;
-  margin: 0px; }
+  margin-bottom: 1%; }
 
 p {
   font-family: "Merriweather", serif;
@@ -479,7 +492,7 @@ nav {
   margin: 0px;
   font-family: "Oswald", sans-serif;
   font-weight: lighter;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   position: fixed;
   width: 100%;
@@ -562,13 +575,13 @@ nav {
   background-size: contain;
   text-align: center; }
   .homepage h1 {
-    padding: 25px 50px 0px;
+    padding: 25px 25px 0px;
     text-align: center; }
   .homepage h2 {
-    padding: 25px 50px 0px;
+    padding: 25px 25px 0px;
     text-align: center; }
   .homepage p {
-    padding: 10px 30px;
+    padding: 10px 50px;
     text-align: center; }
   .homepage .heromain {
     background-image: url("../images/barton.jpg");
@@ -579,6 +592,7 @@ nav {
     .homepage .heromain #banner {
       text-align: center; }
     .homepage .heromain #bannertext {
+      border: 5px solid #4da6fa;
       z-index: -.5;
       margin: 2% 10.5% 0% 0%;
       text-align: center;
@@ -586,8 +600,6 @@ nav {
       position: fixed;
       box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
       .homepage .heromain #bannertext h1 {
-        margin-top: 10px;
-        font-size: 36px;
         text-align: center;
         color: #333333;
         font-weight: 400; }
@@ -619,11 +631,14 @@ nav {
       color: #3f7eb2; }
   .homepage #pools {
     clear: both;
-    margin-top: 50px;
+    margin: 50px 0px 50px;
     background: white;
-    padding: 25px 25px 25px;
+    padding: 0px 50px 70px;
     box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2); }
+    .homepage #pools h1 {
+      padding-top: 0px; }
     .homepage #pools .headerimg {
+      padding: 50px 0px 0px;
       height: 100px;
       transition: transform .5s ease; }
     .homepage #pools .headerimg:hover {
@@ -635,9 +650,9 @@ nav {
       text-align: center; }
       .homepage #pools .regioncontainer .regionimg {
         width: 23%;
-        margin: 1%; }
+        margin: 0% 1%; }
         .homepage #pools .regioncontainer .regionimg h2 {
-          padding: 25px 0px;
+          padding: 0px;
           font-size: 24px; }
       .homepage #pools .regioncontainer .imgWrap {
         position: relative;
@@ -678,9 +693,8 @@ nav {
         opacity: 1; }
   .homepage #training {
     -webkit-padding-start: 0px;
-    margin: 50px 0px 50px;
     background: white;
-    padding: 25px 25px 25px;
+    padding: 25px 50px 50px;
     box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
     clear: both; }
     .homepage #training h2:hover {
@@ -698,8 +712,6 @@ nav {
         -webkit-padding-start: 0px; }
       .homepage #training .trainingcontainer li {
         display: inline-block; }
-      .homepage #training .trainingcontainer #tech img {
-        margin-bottom: 10px; }
   .homepage #connect {
     margin: 50px 0px 50px;
     background: white;
@@ -719,8 +731,8 @@ nav {
       display: inline;
       padding: 0px 10px; }
     .homepage #connect img {
-      height: 80px;
-      padding: 10px; }
+      height: 90px;
+      padding: 0px 25px 25px; }
     .homepage #connect .connectimg {
       transition: transform .5s ease; }
     .homepage #connect .connectimg:hover {
@@ -753,32 +765,41 @@ nav {
     padding-bottom: 25px; }
 
   .homepage #training .trainingcontainer img {
-    height: 80px; }
+    height: 100px; }
+
+  .homepage #connect img {
+    height: 50px; }
 
   .footerdiv {
     font-size: .9em; }
     .footerdiv a {
       padding-top: 25px; } }
 @media (min-width: 320px) and (max-width: 480px) {
+  p {
+    font-size: .9em; }
+
   nav .logo {
     display: block;
     text-align: center;
     float: none; }
     nav .logo img {
-      height: 75px; }
+      height: 50px; }
   nav .navul {
     -webkit-padding-start: 0px;
-    padding: 0% 10%;
+    padding: 0% 5%;
     margin-top: 10px; }
     nav .navul li {
       font-size: .9em; }
 
-  .heromain #bannertext {
-    padding-top: 50px; }
+  .homepage .heromain #bannertext p {
+    font-size: .9em; }
 
   .homepage #pools .regioncontainer .regionimg {
     width: 96%;
     margin: 2%; }
+
+  .homepage #training .trainingcontainer .trainingimg {
+    padding-top: 25px; }
 
   .homepage #connect img {
     height: 50px;

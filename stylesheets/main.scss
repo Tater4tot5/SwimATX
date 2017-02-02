@@ -15,7 +15,7 @@ $displayfont: 'Merriweather', serif;
   color: #333333;
   font-weight: 400;
   letter-spacing: 1px;
-  margin: 0px;
+  margin-bottom: 1%;
 }
 
 
@@ -35,7 +35,7 @@ background-color: $primary-color;
 margin: 0px;
 font-family: $headerfont;
 font-weight: lighter;
-letter-spacing: 1.5px;
+letter-spacing: 2px;
 box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
 position: fixed;
 width: 100%;
@@ -135,11 +135,11 @@ margin: 0 auto;
 padding: 0px 25px 25px;}
 
 .homepage {
-h1 {padding: 25px 50px 0px;
+h1 {padding: 25px 25px 0px;
 text-align: center;}
-h2 {padding: 25px 50px 0px;
+h2 {padding: 25px 25px 0px;
 text-align: center;}
-p {padding: 10px 30px;
+p {padding: 10px 50px;
 text-align: center;}
 background-image: url("../images/bblbglt.png");
 background-size: contain;
@@ -151,9 +151,11 @@ text-align: center;
   height: 600px;
   text-align: center;
   padding: 150px 50px;
+
   #banner {text-align: center;}
 
   #bannertext {
+    border: 5px solid $primary-color;
     z-index: -.5;
     margin: 2% 10.5% 0% 0%;
     text-align: center;
@@ -161,8 +163,6 @@ text-align: center;
     position: fixed;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     h1 {
-      margin-top: 10px;
-      font-size: 36px;
       text-align: center;
     color: #333333;
   font-weight: 400;}
@@ -210,16 +210,18 @@ text-align: center;
 
 #pools{
   clear: both;
+  h1 {padding-top: 0px;}
   .headerimg {
+    padding:50px 0px 0px;
     height: 100px;
     transition: transform .5s ease;
   }
   .headerimg:hover {
     transform: scale(1.2);
   }
-  margin-top:50px;
+  margin: 50px 0px 50px;
   background: white;
-  padding: 25px 25px 25px;
+  padding: 0px 50px 70px;
   box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   .regioncontainer {
     clear: both;
@@ -229,9 +231,9 @@ text-align: center;
 
     .regionimg {
       width: 23%;
-      margin: 1%;
+      margin: 0% 1%;
       h2 {
-      padding: 25px 0px;
+      padding: 0px;
       font-size: 24px;}
     }
       .imgWrap {
@@ -284,9 +286,8 @@ text-align: center;
 }
 #training {
 -webkit-padding-start: 0px;
-  margin: 50px 0px 50px;
-  background: white;
-  padding: 25px 25px 25px;
+background: white;
+padding: 25px 50px 50px;
   box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   clear: both;
 
@@ -308,9 +309,6 @@ text-align: center;
       -webkit-padding-start: 0px;}
       li {display: inline-block;}
 
-  #tech img{
-    margin-bottom: 10px;
-  }
   }
 }
   #connect{
@@ -337,8 +335,8 @@ text-align: center;
       padding: 0px 10px;
     }
       img {
-      height: 80px;
-      padding: 10px;
+      height:90px;
+      padding: 0px 25px 25px;
     }
     .connectimg {
       transition: transform .5s ease;
@@ -380,26 +378,30 @@ text-align: center;
   padding-bottom: 25px;
 }
 .homepage #training .trainingcontainer img{
-    height: 80px;
+    height: 100px;
   }
 
+  .homepage #connect img{
+      height: 50px;
+    }
   .footerdiv {
     font-size: .9em;
     a {padding-top: 25px;}
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
+  p {font-size: .9em;}
   nav {
     .logo {
       display: block;
       text-align: center;
     float: none;
       img {
-        height: 75px;
+        height: 50px;
       }}
     .navul {
         -webkit-padding-start: 0px;
-        padding: 0% 10%;
+        padding: 0% 5%;
     margin-top: 10px;
     li {
       font-size: .9em;
@@ -407,13 +409,17 @@ text-align: center;
   }
 }
 
-.heromain #bannertext{
-  padding-top: 50px;
-}
+.homepage .heromain #bannertext p {
+  font-size: .9em;}
+
   .homepage #pools .regioncontainer .regionimg {
   width: 96%;
   margin: 2%;
   }
+.homepage #training .trainingcontainer .trainingimg {
+  padding-top: 25px;
+}
+
 .homepage #connect img {
   height: 50px;
   padding: 0px;

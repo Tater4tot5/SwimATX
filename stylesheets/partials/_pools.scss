@@ -5,9 +5,7 @@ h1, h2, h3, {
 text-align: center;}}
 
 .maxwidth {
-width: 90%;
-margin: 0 auto;
-padding: 0px 25px 25px;}
+width: 90%;}
 
 #mapandkey {
   .headerimg {
@@ -32,7 +30,6 @@ padding: 0px 25px 25px;}
 .map {
   width: 50%;
   float: left;
-  padding: 0% 10% 15%;
 iframe{
   width:90%;
   height: 300px;
@@ -58,14 +55,14 @@ iframe{
 
 
 #region{
-
+  text-align: center;
   .regionheader {
     display: block;
     width: 100%;
   }
-  margin: 25px 0px;
+  margin: 50px 0px;
   background: white;
-  padding: 50px 25px 50px;
+  padding: 25px 25px 75px;
   box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   clear: both;
   display: flex;
@@ -95,7 +92,7 @@ iframe{
     .viewmore{
       height: 40px;
     }
-    margin: 0% 1%;
+    margin: 0% ;
     font-family: 'Oswald';
     font-weight: 300;
     padding:15%;
@@ -122,6 +119,7 @@ iframe{
   }
 }
 @media (min-width: 481px) and (max-width: 780px) {
+    #mapandkey {padding: 125px 50px 50px;}
   .map {
     width: 90%;
     float: none;
@@ -140,7 +138,7 @@ iframe{
 }
 @media (min-width: 320px) and (max-width: 480px) {
 
-  #mapandkey h2, h3, p{
+  #mapandkey h2, h3,{
     font-size: 1em;
     padding-top: 25px;
   }

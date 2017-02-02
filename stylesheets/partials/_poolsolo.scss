@@ -9,7 +9,7 @@
   margin: 0 auto;}
 
 .hero {
-  padding: 100px 50px 50px;
+  padding: 75px 50px 50px;
   h1 {text-align: center;
   margin: 0 auto;
 width: 100%;}
@@ -44,6 +44,7 @@ width: 100%;}
   .ac-container{
   	max-width: 200px;
   	text-align: left;
+    padding-bottom: 25px;
   }
   .ac-container label{
     font-family: $headerfont;
@@ -90,13 +91,14 @@ width: 100%;}
     margin-bottom: 25px;
   }
   .poolfacts {
-    width:50%;
+    width:45%;
     float: left;
+    padding-right: 2.5%;
 
   a{
     font-family: $displayfont;
     color: $primary-color;
-    padding-bottom: 10px;
+    padding: 0px 0px;
   }
   a:hover {
     color: $selected;
@@ -105,14 +107,15 @@ width: 100%;}
   .poolfacts::after {
     clear:both;
   }
-
+.pooltext h2 {
+  margin-top: 0px;
+}
   .pooltext {
       text-align: left;
     padding: 0 2.5%;}
 
     p {padding: 0px;}
-    h2 {
-      padding: 0px 0px 10px;
+    h2 {padding: 0px 0px 0px;
 }
 }
 
@@ -157,12 +160,12 @@ width: 100%;}
 }
 @media (min-width: 380px) and (max-width: 480px) {
   .poolcontainer .poolfacts {
-    width:90%;
+    width:100%;
     float: none;
     margin: 15% 5%;}
 
   .poolcontainer .poolimgsolo {
     margin: 0%;
-    width:90%;
+    width:100%;
     float: none;}
 }
