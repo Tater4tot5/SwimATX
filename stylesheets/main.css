@@ -584,9 +584,11 @@ nav {
     padding: 10px 50px;
     text-align: center; }
   .homepage .heromain {
-    background-image: url("../images/barton.jpg");
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-image: url("../images/bsprings.jpg");
+    background-position: 25% 70%;
     background-size: cover;
-    height: 600px;
+    height: 800px;
     text-align: center;
     padding: 150px 50px; }
     .homepage .heromain #banner {
@@ -610,12 +612,13 @@ nav {
       .homepage .heromain #bannertext p {
         font-size: 1.1em;
         color: #333333;
-        padding: 0% 10% 2%; }
+        padding: 0% 10% 0%; }
       .homepage .heromain #bannertext ul {
         text-align: center;
         -webkit-padding-start: 0px;
         list-style: none;
-        margin: 0px; }
+        margin: 0px;
+        padding-bottom: 25px; }
       .homepage .heromain #bannertext li {
         display: inline; }
       .homepage .heromain #bannertext img {

@@ -2,20 +2,37 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>practice</title>
      <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet"/>
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet"/>
      <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Oswald:300,400" rel="stylesheet">
-     <link href="stylesheets/jquery.bxslider.css" rel="stylesheet"/>
     <link href="stylesheets/main.css" rel="stylesheet"/>
   </head>
   <body>
     <main>
+      <h1>Incredibly Basic Slider</h1>
+<div id="slider">
+  <a href="#" class="control_next">next</a>
+  <a href="#" class="control_prev">prev</a>
+  <ul>
+    <li>SLIDE 1</li>
+    <li style="background: #aaa;">SLIDE 2</li>
+    <li>SLIDE 3</li>
+    <li style="background: #aaa;">SLIDE 4</li>
+  </ul>
+</div>
 
+<div class="slider_option">
+  <input type="checkbox" id="checkbox">
+  <label for="checkbox">Autoplay Slider</label>
+</div>
 
     <footer>
          </footer>
   </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
