@@ -79,7 +79,7 @@ body {
 }
 
   .ac-container{
-  	max-width: 200px;
+  	max-width: 250px;
   	text-align: left;
     padding-bottom: 25px;
   }
@@ -118,13 +118,13 @@ body {
 
   .ac-container article p{
   	color: #777;
-  	line-height: 1.2;
-    padding: 0px 0px 5px 5px;
+  	line-height: 3;
+    padding: 5px 0px 5px 5px;
   	font-size: 14px;
     text-align: left;
   }
   .ac-container input:checked ~ article.ac-small{
-  	height: 250px;
+  	height: 200px;
     margin-bottom: 25px;
   }
   .poolfacts {
