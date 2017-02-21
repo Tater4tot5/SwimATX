@@ -16,11 +16,6 @@ Shallow pool with section reserved for lap swimmers. Usually at least three lane
 (512) 974-6700
 Small pool with 5 total lap lanes, which are reserved for lap swimming during certain hours. Be sure to check pool schedule to avoid swim team and recreational swim times.
 
-## Kennemer Pool
-1032 Peyton Gin Rd.
-512-974-9331
-25 meter pool at Lanier Highschool. Great spot for triathletes who want to swim laps before going for a run on the highschool's neighboring track. Check pool schedule for reserved for lap swimming hours.
-
 
 ## Northwest Pool
 7000 Ardath St

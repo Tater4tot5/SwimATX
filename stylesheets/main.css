@@ -201,7 +201,7 @@
   margin: 0 auto; }
 
 .hero {
-  padding: 75px 50px 50px; }
+  padding: 100px 50px 50px; }
   .hero h1 {
     text-align: center;
     margin: 0 auto;
@@ -306,7 +306,7 @@
     .poolcontainer .poolfacts .poolfacts::after {
       clear: both; }
     .poolcontainer .poolfacts .pooltext h2 {
-      margin: 20px 0px 10px; }
+      margin: 20px 0px 20px; }
     .poolcontainer .poolfacts .pooltext {
       margin: 2.5% 5% 0% 2.5%;
       text-align: left;
@@ -340,7 +340,6 @@
     margin: 2% 5%; }
 
   .poolcontainer .poolimgsolo {
-    margin: 0% 2.5% 0% 5%;
     width: 100%;
     float: none; } }
 @media (min-width: 481px) and (max-width: 780px) {
@@ -354,6 +353,9 @@
     width: 100%;
     float: none; } }
 @media (min-width: 380px) and (max-width: 480px) {
+  .hero {
+    padding: 150px 50px 20px; }
+
   .poolcontainer .poolfacts {
     width: 100%;
     float: none;
