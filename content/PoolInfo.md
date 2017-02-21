@@ -20,7 +20,7 @@ Small pool with 5 total lap lanes, which are reserved for lap swimming during ce
 ## Northwest Pool
 7000 Ardath St
 (512) 453-0194
- There are two pools: one for tots and the big, Olympic-sized pool, which has a 14-foot deep end and one of Austin’s few high dives. Work endurance here–the roomy lanes stretch the length of the pool during long course season.
+ There are two pools: one for tots and a separate, Olympic-sized pool with lanes reserved for lap swimmers and a high dive in the deep end area. Great fo–the roomy lanes stretch the length of the pool during long course season.
 
 
 ## Walnut Creek Pool
