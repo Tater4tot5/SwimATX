@@ -3,8 +3,7 @@
   top: 150px;
   width: 10%;
   position: fixed;
-  background: white;
-  z-index: -1; }
+  background: white; }
   .shareside h3 {
     text-align: center; }
   .shareside img {
@@ -349,7 +348,7 @@
     margin: 7.5%, 5%; }
 
   .poolcontainer .poolimgsolo {
-    margin: 0% 2.5% 0% 5%;
+    margin: 0% 2.5% 0% 2.5%;
     width: 100%;
     float: none; } }
 @media (min-width: 380px) and (max-width: 480px) {
@@ -665,10 +664,10 @@ nav {
     text-align: center; }
   .homepage .heromain {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    background-image: url("../images/Balcones.jpg");
+    background-image: url("../images/bsprings.jpg");
     background-position: 25% 70%;
     background-size: cover;
-    height: 800px;
+    height: 600px;
     text-align: center;
     padding: 150px 50px; }
     .homepage .heromain #banner {
